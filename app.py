@@ -1,4 +1,3 @@
-﻿```python
 """
 Adaptive Valuation Screener — Streamlit App
 =============================================
@@ -514,4 +513,3 @@ if run_btn:
             st.dataframe(pd.DataFrame(error_rows), use_container_width=True)
 else:
     st.info("Stel je parameters in de zijbalk in en klik op **Screener uitvoeren**.")
-```
